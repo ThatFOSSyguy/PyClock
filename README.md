@@ -17,7 +17,7 @@ For now, PyClock only support's Windows 10. If you're using MacOS or Linux, plea
 
 # Building from source
 Step 1:
-Installing Python by going to www.python.org(For Windows users: Make sure that you have to add path in the installation). After the installation run ```python3```(For windows users ```python```) and ```pip3```(For windows users ```pip```)in the terminal/cmd. If an error occures then check YouTube for the installation steps for your operating system.
+Installing Python by going to www.python.org (For Windows users: Make sure that you have to add path in the installation). After the installation run ```python3```(For windows users ```python```) and ```pip3```(For windows users ```pip```)in the terminal/cmd. If an error occures then check YouTube for the installation steps for your operating system.
 
 Step 2: 
 Make sure that pyinstaller is there. To check run ```pyinstaller --version```. If an error occours, run ```pip install pyinstaller``` and the run ```pyinstaller --version``` again.
