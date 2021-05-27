@@ -60,3 +60,13 @@ Buliding EXE from EXE-00.toc completed sucessfully```
 
 Step 9: 
 Go to "dist" folder and doubble click on the "clock.exe" folder. If a window pops up, you have sucessfully installed PyClock
+
+# Donation
+
+Bitcoin:
+
+```bc1qltshuqxpl0ewx49kx429vrtxd3gsw9ae3glqpp```
+
+Monero:
+
+```4A2GqdZW4edSMmPJ2nnXwMfdQqyk9xNVQN3S173kXHzjLd6g4cCczfsdFwq4miz5hfiDwjKnxC4MkQrzKMXgnfDzJQCsQRg```
