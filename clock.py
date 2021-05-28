@@ -14,7 +14,7 @@ def updateEverything():
 
 
 clockWindow = Tk()
-clockWindow.title('PyClock (Development branch)')# Tittle
+clockWindow.title('PyClock')# Tittle
 
 time_label = Label(clockWindow,font=("Segoe UI",50),fg="#00FFFF",bg="black")
 time_label.pack()# The time of the clock
