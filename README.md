@@ -1,7 +1,7 @@
 # PyClock
 Simple, light-weight and FOSS clock build using Python
 
-![image](https://user-images.githubusercontent.com/77693447/119861336-e5d3ce00-bf34-11eb-987a-f40f81385f99.png)
+![image](https://user-images.githubusercontent.com/77693447/119951166-44429000-bfb9-11eb-85de-8a68657c528d.png)
 
 # Supported OS
 For now, PyClock only support's Windows 10. If you're using MacOS or Linux, please check the building instructions (https://github.com/ThatFOSSyguy/PyClock/blob/main/README.md#building-from-source)
@@ -9,11 +9,11 @@ For now, PyClock only support's Windows 10. If you're using MacOS or Linux, plea
 # Installation 
 1. Click on "Releases" 
 
-![image](https://user-images.githubusercontent.com/77693447/119840253-7359f280-bf22-11eb-84b2-40e672b542e8.png)
+![image](https://user-images.githubusercontent.com/77693447/119951523-ab604480-bfb9-11eb-8d04-286e6db14bbb.png)
 
 2. Click on the "PyClock-1.0.0.exe"
 
-![image](https://user-images.githubusercontent.com/77693447/119840663-ce8be500-bf22-11eb-9306-265812380a3e.png)
+![image](https://user-images.githubusercontent.com/77693447/119952109-46f1b500-bfba-11eb-999f-3aca9e1a1fb9.png)
 
 # Building from source
 Step 1:
