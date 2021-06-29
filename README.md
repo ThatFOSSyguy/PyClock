@@ -4,7 +4,7 @@ Simple, light-weight and FOSS clock build using Python
 ![image](https://user-images.githubusercontent.com/77693447/119951166-44429000-bfb9-11eb-85de-8a68657c528d.png)
 
 # Supported OS
-For now, PyClock only support's Windows 10. If you're using MacOS or Linux, please check the building instructions (https://github.com/ThatFOSSyguy/PyClock/blob/main/README.md#building-from-source)
+For now, PyClock only support's Windows 10. If you're using MacOS or Linux, please check the downloading the source-code and building from it.
 
 # Installation 
 1. Click on "Releases" 
@@ -15,51 +15,32 @@ For now, PyClock only support's Windows 10. If you're using MacOS or Linux, plea
 
 ![image](https://user-images.githubusercontent.com/77693447/119952109-46f1b500-bfba-11eb-999f-3aca9e1a1fb9.png)
 
-# Building from source
+# Getting the file's source-code
+
+You can use <a href="https://git-scm.com/">Git</a> to clone the repository if you have it. If incase you don't have Git you can follow the steps bellow to download the tarball
+
 Step 1:
-Installing Python by going to www.python.org (For Windows users: Make sure that you have to add path in the installation). After the installation run ```python3```(For windows users ```python```) and ```pip3```(For windows users ```pip```)in the terminal/cmd. If an error occures then check YouTube for the installation steps for your operating system.
-
-Step 2: 
-Make sure that pyinstaller is there. To check run ```pyinstaller --version```. If an error occours, run ```pip install pyinstaller``` and the run ```pyinstaller --version``` again.
-
-Step 3:
-Download the tar.gz file 
+Download the tar ball file 
 
 ![image](https://user-images.githubusercontent.com/77693447/119855527-9ccd4b00-bf2f-11eb-85ad-aeedf8925585.png)
 
-Step 4:
+Step 2:
+Opening the terminal in the file's directory and running this command:
+```tar -xzvf PyClock-1.0.2.tar.gz```
+```cd PyClock-1.0.2```
 
-Click on "Show in folder" 
+![image](https://user-images.githubusercontent.com/77693447/123828207-e63dfb00-d91e-11eb-89d5-0126f1ab44c9.png)
 
-![image](https://user-images.githubusercontent.com/77693447/119855756-d00fda00-bf2f-11eb-9cfa-b79713e8a37b.png)
+Step 3:
+Now you should install <a href="python.org">Python</a> as PyClock is build on Python. 
+_For windows users - If an error occures that ```python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program.```,
+you might have not checked the option of add ing Python to the path._
 
-Step 5:
-Extract the file.
+After installing Python, run ```pyinstaller -F -w -i clockIcon.ico clock.py```. Wait for few minutes for it to build, when it's finised building a message will pop up
+that ```23069 INFO: Buliding EXE from EXE-00.toc completed sucessfully```. Now go to "dist" folder and doubble click on the "clock.exe" folder. If the build was
+sucessful, the clock application will pop-up
 
-Step 6: 
-Go to "PyClock-1.0.0.tar"
-
-![image](https://user-images.githubusercontent.com/77693447/119858846-778e0c00-bf32-11eb-9d32-c6b4a4e64300.png)
-
-And then to PyClock-1.0.0 folder
-
-![image](https://user-images.githubusercontent.com/77693447/119859065-a86e4100-bf32-11eb-905a-e21910c4a047.png)
-
-And for the last, copy the path
-
-![image](https://user-images.githubusercontent.com/77693447/119859243-d6ec1c00-bf32-11eb-9064-1bc3b1e7a4e6.png)
-
-Step 7: 
-Open terminal/cmd and type ```cd``` + the copied path and hit enter.
-
-![image](https://user-images.githubusercontent.com/77693447/119859614-2c282d80-bf33-11eb-8020-3fff93284f2c.png)
-
-Step 8:
-Type ```pyinstaller -F -w -i clockIcon.ico clock.py``` and hit enter. Wait for few minutes for it to build, when it's finised building a message will pop up that ```23069 INFO:
-Buliding EXE from EXE-00.toc completed sucessfully```
-
-Step 9: 
-Go to "dist" folder and doubble click on the "clock.exe" folder. If a window pops up, you have sucessfully installed PyClock
+_For windows users - Windows Defender will say it's a virus but it is just a false positive._
 
 # Donation
 
