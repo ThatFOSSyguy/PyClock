@@ -1,12 +1,19 @@
 # PyClock
 Simple, light-weight and FOSS clock build using Python
 
+## Table of content
+  1. <a href="https://github.com/ThatFOSSyguy/PyClock#supported-os">Supported OS</a>
+  2. <a href="https://github.com/ThatFOSSyguy/PyClock#installation">Installation</a>
+  3. <a href="https://github.com/ThatFOSSyguy/PyClock#getting-the-files-source-code">Getting the file's source-code and building from source</a>
+  4. <a href="https://github.com/ThatFOSSyguy/PyClock#donation">Donations</a>
+
+
 ![image](https://user-images.githubusercontent.com/77693447/119951166-44429000-bfb9-11eb-85de-8a68657c528d.png)
 
 # Supported OS
 For now, PyClock only support's Windows 10. If you're using MacOS or Linux, please check the downloading the source-code and building from it.
 
-# Installation 
+# Installation
 1. Click on "Releases" 
 
 ![image](https://user-images.githubusercontent.com/77693447/119951523-ab604480-bfb9-11eb-8d04-286e6db14bbb.png)
@@ -15,7 +22,7 @@ For now, PyClock only support's Windows 10. If you're using MacOS or Linux, plea
 
 ![image](https://user-images.githubusercontent.com/77693447/119952109-46f1b500-bfba-11eb-999f-3aca9e1a1fb9.png)
 
-# Getting the file's source-code
+# Getting the file's source-code and building from source
 
 You can use <a href="https://git-scm.com/">Git</a> to clone the repository if you have it. If incase you don't have Git you can follow the steps bellow to download the tarball
 
