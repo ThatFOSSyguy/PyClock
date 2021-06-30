@@ -42,7 +42,7 @@ Step 3:
 Now you should install Python as PyClock is build on Python.
 
 _For windows users - If an error occures that ```python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program.```,
-you might have not checked the option of add ing Python to the path._
+you might have not checked the option of adding Python to the path._
 
 After installing Python, run ```pyinstaller -F -w -i clockIcon.ico clock.py```. Wait for few minutes for it to build, when it's finised building a message will pop up
 that ```23069 INFO: Buliding EXE from EXE-00.toc completed sucessfully```. Now go to "dist" folder and doubble click on the "clock.exe" folder. If the build was
