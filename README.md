@@ -45,7 +45,7 @@ _For windows users - If an error occures that ```python : The term 'python' is n
 you might have not checked the option of adding Python to the path._
 
 After installing Python, run ```pyinstaller -F -w -i clockIcon.ico clock.py```. Wait for few minutes for it to build, when it's finised building a message will pop up
-that ```23069 INFO: Buliding EXE from EXE-00.toc completed sucessfully```. Now go to "dist" folder and doubble click on the "clock.exe" folder. If the build was
+that ```23069 INFO: Buliding EXE from EXE-00.toc completed sucessfully```. Now go to "dist" folder and double click on the "clock.exe" folder. If the build was
 sucessful, the clock application will pop-up
 
 _For windows users - Windows Defender will say it's a virus but it is just a false positive._
