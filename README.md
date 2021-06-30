@@ -39,7 +39,7 @@ Opening the terminal in the file's directory and running this command:
 ![image](https://user-images.githubusercontent.com/77693447/123828207-e63dfb00-d91e-11eb-89d5-0126f1ab44c9.png)
 
 Step 3:
-Now you should install <a href="python.org">Python</a> as PyClock is build on Python.
+Now you should install Python as PyClock is build on Python.
 
 _For windows users - If an error occures that ```python : The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program.```,
 you might have not checked the option of add ing Python to the path._
